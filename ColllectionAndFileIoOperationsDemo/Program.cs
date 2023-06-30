@@ -1,4 +1,5 @@
 ﻿using ColllectionAndFileIoOperationsDemo;
+using static ColllectionAndFileIoOperationsDemo.Contacts;
 
 namespace CollectionAndFileIoOperationsDemo
 {
@@ -24,7 +25,10 @@ namespace CollectionAndFileIoOperationsDemo
             //FileIoOperationDDemo.Append_Data();
             //FileIoOperationDDemo.Stream_Reader();
             //FileIoOperationDDemo.Stream_Writer();
-            FileIoOperationDDemo.Write_Lines();
+            //FileIoOperationDDemo.Write_Lines();
+           // SerializationAndDeSerialization.Serialization();
+           //SerializationAndDeSerialization.xmlSerialization();
+           SerializationAndDeSerialization.XmlDeserialization();
         }
     }
 }
